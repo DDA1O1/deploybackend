@@ -70,6 +70,10 @@ app.get('/about', (req, res) => {
   res.send('<h2>about</h2>')
 })
 
+app.get('/contact', (req, res) => {
+  res.send('<h2>contact</h2>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
