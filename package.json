@@ -1,0 +1,19 @@
+{
+  "name": "deploybackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "debashish dash",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.21.1"
+  }
+}
