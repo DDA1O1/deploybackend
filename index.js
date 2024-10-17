@@ -66,6 +66,10 @@ app.get('/courses', (req, res) => {
   res.send('<h2>courses</h2>')
 })
 
+app.get('/about', (req, res) => {   
+  res.send('<h2>about</h2>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
